@@ -36,6 +36,13 @@ Duty cycle and output amplitude are adjustable through voltage divider networks 
 ---
 
 ## Repository Structure
-- Documentation → Project report (PDF + PPTX)
-- Schematics → LTSpice files (.asc)
-- Simulation → RAW / FFT / LOG data
+| File | Description |
+|------|-------------|
+| `PWM Generator.pdf` | Project report and technical documentation |
+| `PWM Generator.pptx` | Project presentation slides |
+| `Triangular_signal.asc` | LTspice schematic for triangular signal generation |
+| `Triangular_signal.plt` | LTspice plot configuration |
+| `Triangular_signal.fft` | FFT analysis results of the generated signal |
+| `Triangular_signal.log` | LTspice simulation log |
+| `Triangular_signal.log.raw` | Transient simulation raw data |
+| `Triangular_signal.op.raw` | Operating point analysis data |
